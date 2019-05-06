@@ -55,7 +55,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/service/UserService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
@@ -81,10 +81,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/dto/UserDto.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-340">
+            <state relative-caret-position="-300">
               <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -94,18 +94,13 @@
                 <element signature="e#540#541#0" expanded="true" />
                 <element signature="e#580#581#0" expanded="true" />
                 <element signature="e#610#611#0" expanded="true" />
-                <element signature="e#649#650#0" expanded="true" />
-                <element signature="e#674#675#0" expanded="true" />
-                <element signature="e#616#617#0" expanded="true" />
-                <element signature="e#646#647#0" expanded="true" />
+                <element signature="e#1032#1033#0" expanded="true" />
+                <element signature="e#1095#1096#0" expanded="true" />
                 <element signature="e#741#742#0" expanded="true" />
                 <element signature="e#762#763#0" expanded="true" />
-                <element signature="e#824#825#0" expanded="true" />
-                <element signature="e#845#846#0" expanded="true" />
-                <element signature="e#912#913#0" expanded="true" />
-                <element signature="e#938#939#0" expanded="true" />
-                <element signature="e#976#977#0" expanded="true" />
-                <element signature="e#997#998#0" expanded="true" />
+                <element signature="e#1264#1265#0" expanded="true" />
+                <element signature="e#1353#1354#0" expanded="true" />
+                <element signature="e#1414#1415#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -343,7 +338,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557137103511" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557137681213" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -537,7 +532,7 @@
       <workItem from="1555231877051" duration="25615000" />
       <workItem from="1556175199623" duration="1034000" />
       <workItem from="1556594282911" duration="17000" />
-      <workItem from="1556767992655" duration="15113000" />
+      <workItem from="1556767992655" duration="15785000" />
     </task>
     <task id="LOCAL-00001" summary="Spring project">
       <created>1557135723557</created>
@@ -557,7 +552,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57818000" />
+    <option name="totallyTimeSpent" value="58490000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-961" y="23" width="960" height="951" extended-state="0" />
@@ -708,34 +703,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dto/UserDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-340">
-          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#296#323#0" expanded="true" />
-            <element signature="e#620#644#0" expanded="true" />
-            <element signature="e#510#511#0" expanded="true" />
-            <element signature="e#540#541#0" expanded="true" />
-            <element signature="e#580#581#0" expanded="true" />
-            <element signature="e#610#611#0" expanded="true" />
-            <element signature="e#649#650#0" expanded="true" />
-            <element signature="e#674#675#0" expanded="true" />
-            <element signature="e#616#617#0" expanded="true" />
-            <element signature="e#646#647#0" expanded="true" />
-            <element signature="e#741#742#0" expanded="true" />
-            <element signature="e#762#763#0" expanded="true" />
-            <element signature="e#824#825#0" expanded="true" />
-            <element signature="e#845#846#0" expanded="true" />
-            <element signature="e#912#913#0" expanded="true" />
-            <element signature="e#938#939#0" expanded="true" />
-            <element signature="e#976#977#0" expanded="true" />
-            <element signature="e#997#998#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dao/MysqlDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -820,6 +787,29 @@
           <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dto/UserDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-300">
+          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#296#323#0" expanded="true" />
+            <element signature="e#620#644#0" expanded="true" />
+            <element signature="e#510#511#0" expanded="true" />
+            <element signature="e#540#541#0" expanded="true" />
+            <element signature="e#580#581#0" expanded="true" />
+            <element signature="e#610#611#0" expanded="true" />
+            <element signature="e#1032#1033#0" expanded="true" />
+            <element signature="e#1095#1096#0" expanded="true" />
+            <element signature="e#741#742#0" expanded="true" />
+            <element signature="e#762#763#0" expanded="true" />
+            <element signature="e#1264#1265#0" expanded="true" />
+            <element signature="e#1353#1354#0" expanded="true" />
+            <element signature="e#1414#1415#0" expanded="true" />
           </folding>
         </state>
       </provider>
