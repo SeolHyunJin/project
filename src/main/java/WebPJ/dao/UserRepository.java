@@ -1,19 +1,25 @@
-package dao;
+package WebPJ.dao;
 
-import dto.UserDto;
+import WebPJ.dto.UserDto;
+import org.apache.ibatis.session.SqlSession;
 import org.mybatis.spring.SqlSessionTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Repository;
 
+
 @Repository
-public class MysqlDao {
+public class UserRepository {
+
+    private SqlSessionTemplate session;
+
     @Autowired
-    @Qualifier("sqlSessionTemplate")
-    SqlSessionTemplate session;
+    public UserRepository(SqlSessionTemplate session){
+        this.session = session;
+    }
 
     public UserDto getUserByEmail(String email) {
-        UserDto user = session.selectOne("user.userSelect", email);
+        UserDto user = session.selectOne("database.userEmail", email);
         return user;
     }
 }

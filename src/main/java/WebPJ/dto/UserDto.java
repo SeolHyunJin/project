@@ -1,4 +1,4 @@
-package dto;
+package WebPJ.dto;
 
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
